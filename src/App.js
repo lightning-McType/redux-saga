@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Main } from "./components/Main";
+import { Header } from "./components/Header";
+import { Cats } from "./components/Cats";
+import Modal from "./components/Modal";
+import Test from "./components/Test";
+import Timer from "./components/Timer";
+import NewModal from "./components/NewModal";
+import Position from "./components/Position";
+import Ecom from "./components/Ecom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Ecom />
     </div>
   );
 }
